@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:background="#ffffcc"
+	android:orientation="vertical"
+	>
+	
+		
+	<TextView
+		android:text="Tic Tac Toe Game"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textSize="50dip"
+		android:layout_marginBottom="20dip"
+		android:textColor="#0000ff"	
+	>
+	</TextView>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:stretchColumns="*"
+		>
+		<TableRow>
+			<Button
+				android:text=""
+				android:id="@+id/topLeft"
+				android:height="100dip"
+				android:layout_margin="2dip"
+
+				/>
+			<Button
+				android:text=""
+				android:id="@+id/topMid"
+				android:height="100dip"
+				android:layout_margin="2dip"
+				/>
+			<Button
+				android:text=""
+				android:id="@+id/topRight"
+				android:height="100dip"
+				android:layout_margin="2dip"
+				/>
+		</TableRow>
+		<TableRow>
+			<Button
+				android:text=""
+				android:id="@+id/midLeft"
+				android:height="100dip"
+				android:layout_margin="2dip"
+			/>
+			<Button
+				android:text=""
+				android:id="@+id/midMid"
+				android:height="100dip"
+				android:layout_margin="2dip"
+			/>
+			<Button
+				android:text=""
+				android:id="@+id/midRight"
+				android:height="100dip"
+				android:layout_margin="2dip"
+			/>
+		</TableRow>
+		<TableRow>
+			<Button
+				android:text=""
+				android:id="@+id/bottomLeft"
+				android:height="100dip"
+				android:layout_margin="2dip"
+			/>
+			<Button
+				android:text=""
+				android:id="@+id/bottomMid"
+				android:height="100dip"
+				android:layout_margin="2dip"
+				
+			/>
+			<Button
+				android:text=""
+				android:id="@+id/bottomRight"
+				android:height="100dip"
+				android:layout_margin="2dip"
+			/>
+		</TableRow>
+		
+    </TableLayout>
+	
+	<Button
+		android:text="  Reset  "
+		android:id="@+id/resetButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textSize="30dip"
+		android:layout_marginTop="20dip"
+		android:layout_marginBottom="10dip"
+		android:textColor="#0000ff"
+		android:background="#ffff00"
+	/>
+	
+	<TextView
+		android:text="       Developed by Yamin       "
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textSize="30dip"
+		android:layout_marginTop="10dip"
+		android:background="#438954"
+		android:textColor="#00ffff"	
+	>
+	</TextView>
+</LinearLayout>
